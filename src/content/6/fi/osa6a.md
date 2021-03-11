@@ -830,7 +830,7 @@ ReactDOM.render(
 )
 ```
 
-Uutta tässä on se, että sovellus on määritelty react redux -kirjaston tarjoaman [Provider](https://github.com/reactjs/react-redux/blob/master/docs/api.md#provider-store)-komponentin lapsena ja että sovelluksen käyttämä store on annettu Provider-komponentin attribuutiksi <i>store</i>. 
+Uutta tässä on se, että sovellus on määritelty react redux -kirjaston tarjoaman [Provider](https://github.com/reduxjs/react-redux/blob/master/docs/api/Provider.md)-komponentin lapsena ja että sovelluksen käyttämä store on annettu Provider-komponentin attribuutiksi <i>store</i>. 
 
 Action creator -funktioiden määrittely on siirretty reducerin kanssa samaan tiedostoon <i>reducers/noteReducer.js</i> joka näyttää seuraavalta
 
